@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clearing_day_ics"
+version = "0.1.0"
+description = "Read the SIX Clearing Day calendar and generate an ICS file"
+authors = ["Leo Kuboschek <leo@kuboschek.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pydantic = "2.10.4"
+requests = "^2.32.3"
+ics = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
