@@ -4,10 +4,16 @@ from collections import defaultdict
 import os
 
 def generate(env):
-    url = client.TEST_URL if env == 'test' else client.PROD_URL
+    url = client.TEST_URL if env == 'Test' else client.PROD_URL
     data = client.get_calendar_v1(url)
     
-    calendar = Calendar()
+    calendar_file = f'out/six_clearingday_{env.lower()}.ics'
+    if os.path.exists(calendar_file):
+        with open(calendar_file, 'r') as f:
+            calendar = Calendar(f.read())
+    else:
+        calendar = Calendar()
+    
     grouped_entries = defaultdict(list)
     
     for entry in data.entries:
@@ -18,14 +24,20 @@ def generate(env):
         os.makedirs('out')
     
     for calendar_day, entries in grouped_entries.items():
-        all_day_event = Event()
-        all_day_event.name = "Normal Operation"
-        all_day_event.begin = calendar_day
-        all_day_event.end = calendar_day
-        all_day_event.make_all_day()
+        existing_event = next((e for e in calendar.events if e.begin.date() == calendar_day and e.all_day), None)
         
-        description = ""
-        has_downtime = False
+        if existing_event:
+            description = existing_event.description
+            has_downtime = "Scheduled Downtime" in existing_event.name
+        else:
+            existing_event = Event()
+            existing_event.name = "Normal Operation"
+            existing_event.begin = calendar_day
+            existing_event.end = calendar_day
+            existing_event.make_all_day()
+            description = ""
+            has_downtime = False
+        
         downtime_events = defaultdict(list)
         
         for entry, service in entries:
@@ -52,21 +64,28 @@ def generate(env):
                 for downtime in service.scheduledDowntimes:
                     downtime_events[(downtime.startDateTime, downtime.endDateTime)].append(service)
         
-        all_day_event.name = "Scheduled Downtime" if has_downtime else "Normal Operation"
-        all_day_event.description = description
-        calendar.events.add(all_day_event)
+        if existing_event.description != description or existing_event.name != ("Scheduled Downtime" if has_downtime else "Normal Operation"):
+            existing_event.name = f"Scheduled Downtime ({env})" if has_downtime else f"Normal Operation ({env})"
+            existing_event.description = description
+        calendar.events.add(existing_event)
         
         for (start, end), services in downtime_events.items():
-            downtime_event = Event()
-            downtime_event.name = "Downtime: " + ", ".join([s.serviceIdentification for s in services])
-            downtime_event.begin = start
-            downtime_event.end = end
-            downtime_event.description = "\n".join([s.serviceDescription for s in services])
-            calendar.events.add(downtime_event)
+            existing_downtime_event = next((e for e in calendar.events if e.begin == start and e.end == end), None)
+            new_description = "\n".join([s.serviceDescription for s in services])
+            if existing_downtime_event:
+                if existing_downtime_event.description != new_description:
+                    existing_downtime_event.description = new_description
+            else:
+                downtime_event = Event()
+                downtime_event.name = f"Downtime ({env}): " + ", ".join([s.serviceIdentification for s in services])
+                downtime_event.begin = start
+                downtime_event.end = end
+                downtime_event.description = new_description
+                calendar.events.add(downtime_event)
     
-    with open(f'out/clearingday_{env}.ics', 'w', newline='') as f:
+    with open(calendar_file, 'w', newline='') as f:
         f.write(calendar.serialize())
 
 if __name__ == '__main__':
-    generate('test')
-    generate('prod')
+    generate('Test')
+    generate('Prod')
