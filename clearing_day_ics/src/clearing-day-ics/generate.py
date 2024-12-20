@@ -7,15 +7,19 @@ import sys
 
 def generate(env: Literal["Test", "Prod"], output_folder: str = 'out'):
     url = client.TEST_URL if env == 'Test' else client.PROD_URL
+
+    print(f"Fetching data from {url}...")
     data = client.get_calendar_v1(url)
 
     print(f"Output directory: {os.path.abspath(output_folder)}")
 
     calendar_file = os.path.join(os.getcwd(), output_folder, f'six_clearingday_{env.lower()}.ics')
     if os.path.exists(calendar_file):
+        print(f"Reading existing calendar file: {calendar_file}")
         with open(calendar_file, 'r') as f:
             calendar = Calendar(f.read())
     else:
+        print(f"Creating new calendar file: {calendar_file}")
         calendar = Calendar()
     
     grouped_entries = defaultdict(list)
