@@ -36,8 +36,9 @@ def generate(env: Literal["Test", "Prod"], output_folder: str = 'out'):
     for calendar_day, entries in grouped_entries.items():
         existing_event = next((e for e in calendar.events if e.begin.date() == calendar_day and e.all_day), None)
         
+        description = ""
+
         if existing_event:
-            description = existing_event.description
             has_downtime = "Scheduled Downtime" in existing_event.name
         else:
             existing_event = Event()
@@ -45,7 +46,6 @@ def generate(env: Literal["Test", "Prod"], output_folder: str = 'out'):
             existing_event.begin = calendar_day
             existing_event.end = calendar_day
             existing_event.make_all_day()
-            description = ""
             has_downtime = False
         
         downtime_events = defaultdict(list)
