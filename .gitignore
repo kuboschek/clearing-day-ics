@@ -2,8 +2,5 @@
 # Ignore the out directory
 out/
 
-# Ignore all .ics files
-*.ics
-
 .venv
 *.pyc

@@ -1,13 +1,17 @@
 import client
 from ics import Calendar, Event
 from collections import defaultdict
+from typing import Literal
 import os
+import sys
 
-def generate(env):
+def generate(env: Literal["Test", "Prod"], output_folder: str = 'out'):
     url = client.TEST_URL if env == 'Test' else client.PROD_URL
     data = client.get_calendar_v1(url)
-    
-    calendar_file = f'out/six_clearingday_{env.lower()}.ics'
+
+    print(f"Output directory: {os.path.abspath(output_folder)}")
+
+    calendar_file = os.path.join(os.getcwd(), output_folder, f'six_clearingday_{env.lower()}.ics')
     if os.path.exists(calendar_file):
         with open(calendar_file, 'r') as f:
             calendar = Calendar(f.read())
@@ -87,5 +91,5 @@ def generate(env):
         f.write(calendar.serialize())
 
 if __name__ == '__main__':
-    generate('Test')
-    generate('Prod')
+    generate('Test', output_folder=sys.argv[1] if len(sys.argv) > 1 else 'out')
+    generate('Prod', output_folder=sys.argv[1] if len(sys.argv) > 1 else 'out')
