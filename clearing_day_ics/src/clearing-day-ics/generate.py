@@ -21,10 +21,12 @@ def generate(env: Literal["Test", "Prod"], output_folder: str = 'out'):
     else:
         print(f"Creating new calendar file: {calendar_file}")
         calendar = Calendar()
-    
+
+    data.entries.sort(key=lambda entry: entry.calendarDay)
     grouped_entries = defaultdict(list)
     
     for entry in data.entries:
+        entry.services.sort(key=lambda service: service.serviceIdentification)
         for service in entry.services:
             grouped_entries[entry.calendarDay].append((entry, service))
     
