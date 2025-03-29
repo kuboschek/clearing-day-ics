@@ -16,16 +16,16 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:c58c5ddf-259f-45ac-9142-c774f8a56940@c58c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250530
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-30 17:00:00+02:00\nClearing Stop 2: 2025-05-30 18:00:00+02:00\nClearing Stop 3: 2025-05-30 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-30 16:30:00+02:00\nClearing Stop 2: 2025-05-30 17:30:00+02:00\nClearing Stop 3: 2025-05-30 18:15:00+02:00\nCut Off 1: 2025-05-30 16:50:00+02:00\nCut Off 2: 2025-05-30 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:740324e2-8ed6-48e3-8153-367224ac5d6f@7403.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251029
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-10-29 17:00:00+01:00\nClearing Stop 2: 2025-10-29 18:00:00+01:00\nClearing Stop 3: 2025-10-29 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-10-29 16:30:00+01:00\nClearing Stop 2: 2025-10-29 17:30:00+01:00\nClearing Stop 3: 2025-10-29 18:15:00+01:00\nCut Off 1: 2025-10-29 16:50:00+01:00\nCut Off 2: 2025-10-29 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:94e7e272-2c11-477c-ac35-b58c6b148b64@94e7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250530
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-30 17:00:00+02:00\nClearing Stop 2: 2025-05-30 18:00:00+02:00\nClearing Stop 3: 2025-05-30 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-30 16:30:00+02:00\nClearing Stop 2: 2025-05-30 17:30:00+02:00\nClearing Stop 3: 2025-05-30 18:15:00+02:00\nCut Off 1: 2025-05-30 16:50:00+02:00\nCut Off 2: 2025-05-30 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:740324e2-8ed6-48e3-8153-367224ac5d6f@7403.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250315
@@ -108,18 +108,18 @@ SUMMARY:Normal Operation (Prod)
 UID:53c7b7ed-3bd0-4f0d-a53f-381921d54cf6@53c7.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
-DTEND:20250323T170000Z
-DTSTART:20250322T230000Z
-SUMMARY:Downtime (Prod): PCR_P\, PER_P
-UID:93c8dc68-f03d-4b22-a7e3-81b5efce4c50@93c8.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20250615T160000Z
 DTSTART:20250614T220000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:848777e6-3bf9-4991-8abb-cebc86f7bce3@8487.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
+DTEND:20250323T170000Z
+DTSTART:20250322T230000Z
+SUMMARY:Downtime (Prod): PCR_P\, PER_P
+UID:93c8dc68-f03d-4b22-a7e3-81b5efce4c50@93c8.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250716
@@ -306,10 +306,10 @@ SUMMARY:Normal Operation (Prod)
 UID:d111b13d-6d3b-43ce-9cb6-352e231e89c9@d111.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250517
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:81dd9fb0-696c-4586-a8f1-08ecf814a7f4@81dd.org
+DTSTART;VALUE=DATE:20251126
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-26 17:00:00+01:00\nClearing Stop 2: 2025-11-26 18:00:00+01:00\nClearing Stop 3: 2025-11-26 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-26 16:30:00+01:00\nClearing Stop 2: 2025-11-26 17:30:00+01:00\nClearing Stop 3: 2025-11-26 18:15:00+01:00\nCut Off 1: 2025-11-26 16:50:00+01:00\nCut Off 2: 2025-11-26 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:7a69dd53-b970-477c-bb19-b767904b9a76@7a69.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -333,10 +333,10 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:ba565851-b1b9-4b02-a28c-92cebc153503@ba56.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251126
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-26 17:00:00+01:00\nClearing Stop 2: 2025-11-26 18:00:00+01:00\nClearing Stop 3: 2025-11-26 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-26 16:30:00+01:00\nClearing Stop 2: 2025-11-26 17:30:00+01:00\nClearing Stop 3: 2025-11-26 18:15:00+01:00\nCut Off 1: 2025-11-26 16:50:00+01:00\nCut Off 2: 2025-11-26 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:7a69dd53-b970-477c-bb19-b767904b9a76@7a69.org
+DTSTART;VALUE=DATE:20250517
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:81dd9fb0-696c-4586-a8f1-08ecf814a7f4@81dd.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -392,17 +392,17 @@ SUMMARY:Normal Operation (Prod)
 UID:0835899b-79b2-4acd-89d1-b398bbdf6f5a@0835.org
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251001
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-10-01 17:00:00+02:00\nClearing Stop 2: 2025-10-01 18:00:00+02:00\nClearing Stop 3: 2025-10-01 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-10-01 16:30:00+02:00\nClearing Stop 2: 2025-10-01 17:30:00+02:00\nClearing Stop 3: 2025-10-01 18:15:00+02:00\nCut Off 1: 2025-10-01 16:50:00+02:00\nCut Off 2: 2025-10-01 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:2c5157b1-f2e9-4e04-82bf-b689523c3feb@2c51.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
 DTEND:20250119T170000Z
 DTSTART:20250118T230000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:cf9b8ed3-a3e3-46f5-9379-789d445e5f19@cf9b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251001
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-10-01 17:00:00+02:00\nClearing Stop 2: 2025-10-01 18:00:00+02:00\nClearing Stop 3: 2025-10-01 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-10-01 16:30:00+02:00\nClearing Stop 2: 2025-10-01 17:30:00+02:00\nClearing Stop 3: 2025-10-01 18:15:00+02:00\nCut Off 1: 2025-10-01 16:50:00+02:00\nCut Off 2: 2025-10-01 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:2c5157b1-f2e9-4e04-82bf-b689523c3feb@2c51.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251017
@@ -441,17 +441,17 @@ SUMMARY:Normal Operation (Prod)
 UID:1db9efc0-87f0-4478-8141-7d1114f4aa12@1db9.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250117
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-17 17:00:00+01:00\nClearing Stop 2: 2025-01-17 18:00:00+01:00\nClearing Stop 3: 2025-01-17 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-17 16:30:00+01:00\nClearing Stop 2: 2025-01-17 17:30:00+01:00\nClearing Stop 3: 2025-01-17 18:15:00+01:00\nCut Off 1: 2025-01-17 16:50:00+01:00\nCut Off 2: 2025-01-17 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:90e32d6f-a727-4162-a7ff-d258fb1df41b@90e3.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20250928T160000Z
 DTSTART:20250927T220000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:770d2bb9-2c09-4083-bcb1-e76d8be79b08@770d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250117
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-17 17:00:00+01:00\nClearing Stop 2: 2025-01-17 18:00:00+01:00\nClearing Stop 3: 2025-01-17 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-17 16:30:00+01:00\nClearing Stop 2: 2025-01-17 17:30:00+01:00\nClearing Stop 3: 2025-01-17 18:15:00+01:00\nCut Off 1: 2025-01-17 16:50:00+01:00\nCut Off 2: 2025-01-17 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:90e32d6f-a727-4162-a7ff-d258fb1df41b@90e3.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20241220
@@ -603,16 +603,16 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:26db762d-3c8c-4f48-9ab2-512f5309c863@26db.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251130
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:30cee761-9935-4547-a5c3-9879cf9af2ed@30ce.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251225
 DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
 SUMMARY:Normal Operation (Prod)
 UID:dd76657a-538a-4b84-a889-6d97eb98d8ff@dd76.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251130
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:30cee761-9935-4547-a5c3-9879cf9af2ed@30ce.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -635,16 +635,16 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:a8eb236a-9d93-4054-817f-13d8331eb8b7@a8eb.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250318
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-18 17:00:00+01:00\nClearing Stop 2: 2025-03-18 18:00:00+01:00\nClearing Stop 3: 2025-03-18 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-18 16:30:00+01:00\nClearing Stop 2: 2025-03-18 17:30:00+01:00\nClearing Stop 3: 2025-03-18 18:15:00+01:00\nCut Off 1: 2025-03-18 16:50:00+01:00\nCut Off 2: 2025-03-18 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:8fcb55c9-1406-4d9e-927a-8e972d0e5830@8fcb.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250502
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-02 17:00:00+02:00\nClearing Stop 2: 2025-05-02 18:00:00+02:00\nClearing Stop 3: 2025-05-02 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-02 16:30:00+02:00\nClearing Stop 2: 2025-05-02 17:30:00+02:00\nClearing Stop 3: 2025-05-02 18:15:00+02:00\nCut Off 1: 2025-05-02 16:50:00+02:00\nCut Off 2: 2025-05-02 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:cae86f54-3109-4852-90b7-aa1e9d1276b5@cae8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250318
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-18 17:00:00+01:00\nClearing Stop 2: 2025-03-18 18:00:00+01:00\nClearing Stop 3: 2025-03-18 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-18 16:30:00+01:00\nClearing Stop 2: 2025-03-18 17:30:00+01:00\nClearing Stop 3: 2025-03-18 18:15:00+01:00\nCut Off 1: 2025-03-18 16:50:00+01:00\nCut Off 2: 2025-03-18 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:8fcb55c9-1406-4d9e-927a-8e972d0e5830@8fcb.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
@@ -734,10 +734,11 @@ SUMMARY:Normal Operation (Prod)
 UID:2dbff454-6881-4796-9584-d2273b023c0a@2dbf.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250603
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-03 17:00:00+02:00\nClearing Stop 2: 2025-06-03 18:00:00+02:00\nClearing Stop 3: 2025-06-03 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-03 16:30:00+02:00\nClearing Stop 2: 2025-06-03 17:30:00+02:00\nClearing Stop 3: 2025-06-03 18:15:00+02:00\nCut Off 1: 2025-06-03 16:50:00+02:00\nCut Off 2: 2025-06-03 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:eb61d226-48b2-445d-a4c7-c4cb33c28a1b@eb61.org
+DESCRIPTION:RTGS EUR production\, production code base
+DTEND:20250830T220000Z
+DTSTART:20250830T100000Z
+SUMMARY:Downtime (Prod): PCR_P\, PER_P
+UID:7397a293-82a9-4aaf-bc2f-b5aa709ebc6e@7397.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250721
@@ -746,11 +747,16 @@ SUMMARY:Normal Operation (Prod)
 UID:76d383f0-8f1e-476a-a2b2-c5c90e3d7d63@76d3.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:RTGS EUR production\, production code base
-DTEND:20250830T220000Z
-DTSTART:20250830T100000Z
-SUMMARY:Downtime (Prod): PCR_P\, PER_P
-UID:7397a293-82a9-4aaf-bc2f-b5aa709ebc6e@7397.org
+DTSTART;VALUE=DATE:20250603
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-03 17:00:00+02:00\nClearing Stop 2: 2025-06-03 18:00:00+02:00\nClearing Stop 3: 2025-06-03 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-03 16:30:00+02:00\nClearing Stop 2: 2025-06-03 17:30:00+02:00\nClearing Stop 3: 2025-06-03 18:15:00+02:00\nCut Off 1: 2025-06-03 16:50:00+02:00\nCut Off 2: 2025-06-03 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:eb61d226-48b2-445d-a4c7-c4cb33c28a1b@eb61.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250730
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-07-30 17:00:00+02:00\nClearing Stop 2: 2025-07-30 18:00:00+02:00\nClearing Stop 3: 2025-07-30 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-07-30 16:30:00+02:00\nClearing Stop 2: 2025-07-30 17:30:00+02:00\nClearing Stop 3: 2025-07-30 18:15:00+02:00\nCut Off 1: 2025-07-30 16:50:00+02:00\nCut Off 2: 2025-07-30 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:f7962f43-23fd-4cf1-9a82-e81dba74c209@f796.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
@@ -758,12 +764,6 @@ DTEND:20250525T090000Z
 DTSTART:20250525T074500Z
 SUMMARY:Downtime (Prod): PCR_P
 UID:4f6776d1-327b-49f8-81eb-ce2d64f7f082@4f67.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250730
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-07-30 17:00:00+02:00\nClearing Stop 2: 2025-07-30 18:00:00+02:00\nClearing Stop 3: 2025-07-30 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-07-30 16:30:00+02:00\nClearing Stop 2: 2025-07-30 17:30:00+02:00\nClearing Stop 3: 2025-07-30 18:15:00+02:00\nCut Off 1: 2025-07-30 16:50:00+02:00\nCut Off 2: 2025-07-30 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:f7962f43-23fd-4cf1-9a82-e81dba74c209@f796.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20241221
@@ -803,16 +803,16 @@ SUMMARY:Normal Operation (Prod)
 UID:1967570e-8d09-42f9-a75d-ab4cefb8f77c@1967.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250430
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-04-30 17:00:00+02:00\nClearing Stop 2: 2025-04-30 18:00:00+02:00\nClearing Stop 3: 2025-04-30 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-04-30 16:30:00+02:00\nClearing Stop 2: 2025-04-30 17:30:00+02:00\nClearing Stop 3: 2025-04-30 18:15:00+02:00\nCut Off 1: 2025-04-30 16:50:00+02:00\nCut Off 2: 2025-04-30 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:a66c62ec-74c0-4872-b4e5-e10750f3190d@a66c.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251211
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-12-11 17:00:00+01:00\nClearing Stop 2: 2025-12-11 18:00:00+01:00\nClearing Stop 3: 2025-12-11 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-12-11 16:30:00+01:00\nClearing Stop 2: 2025-12-11 17:30:00+01:00\nClearing Stop 3: 2025-12-11 18:15:00+01:00\nCut Off 1: 2025-12-11 16:50:00+01:00\nCut Off 2: 2025-12-11 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:39a87adc-857a-491c-a39b-f3568350a596@39a8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250430
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-04-30 17:00:00+02:00\nClearing Stop 2: 2025-04-30 18:00:00+02:00\nClearing Stop 3: 2025-04-30 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-04-30 16:30:00+02:00\nClearing Stop 2: 2025-04-30 17:30:00+02:00\nClearing Stop 3: 2025-04-30 18:15:00+02:00\nCut Off 1: 2025-04-30 16:50:00+02:00\nCut Off 2: 2025-04-30 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:a66c62ec-74c0-4872-b4e5-e10750f3190d@a66c.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250202
@@ -857,16 +857,16 @@ SUMMARY:Normal Operation (Prod)
 UID:8e7bdde4-8245-41b5-944e-01d48c0acf63@8e7b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241228
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:e85f739e-cbab-4711-b536-d10f758a0e94@e85f.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250407
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-04-07 17:00:00+02:00\nClearing Stop 2: 2025-04-07 18:00:00+02:00\nClearing Stop 3: 2025-04-07 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-04-07 16:30:00+02:00\nClearing Stop 2: 2025-04-07 17:30:00+02:00\nClearing Stop 3: 2025-04-07 18:15:00+02:00\nCut Off 1: 2025-04-07 16:50:00+02:00\nCut Off 2: 2025-04-07 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:e0ef6400-a93b-488f-8604-8d843be6b3d1@e0ef.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241228
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:e85f739e-cbab-4711-b536-d10f758a0e94@e85f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251031
@@ -967,16 +967,16 @@ SUMMARY:Normal Operation (Prod)
 UID:2ac4bb2f-2efa-482c-b360-9bd1e457a366@2ac4.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250405
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:8e773709-ee87-46e0-bab9-08fc6aec67f3@8e77.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250922
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-09-22 17:00:00+02:00\nClearing Stop 2: 2025-09-22 18:00:00+02:00\nClearing Stop 3: 2025-09-22 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-09-22 16:30:00+02:00\nClearing Stop 2: 2025-09-22 17:30:00+02:00\nClearing Stop 3: 2025-09-22 18:15:00+02:00\nCut Off 1: 2025-09-22 16:50:00+02:00\nCut Off 2: 2025-09-22 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:9c1ef7c8-9202-43df-be4e-d5f0b98a7820@9c1e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250405
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:8e773709-ee87-46e0-bab9-08fc6aec67f3@8e77.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -986,16 +986,16 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:35156b38-9e6f-4a4b-af13-d862723ef18c@3515.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250426
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:8d581914-39db-426c-8e07-d0a2926c9964@8d58.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251224
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-12-24 17:00:00+01:00\nClearing Stop 2: 2025-12-24 18:00:00+01:00\nClearing Stop 3: 2025-12-24 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-12-24 16:30:00+01:00\nClearing Stop 2: 2025-12-24 17:30:00+01:00\nClearing Stop 3: 2025-12-24 18:15:00+01:00\nCut Off 1: 2025-12-24 16:50:00+01:00\nCut Off 2: 2025-12-24 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:d864673d-c038-4c19-8336-b3656b11011e@d864.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250426
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:8d581914-39db-426c-8e07-d0a2926c9964@8d58.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250220
@@ -1055,22 +1055,22 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:9298716a-186e-460a-a750-c77c6f60cbec@9298.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250930
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-09-30 17:00:00+02:00\nClearing Stop 2: 2025-09-30 18:00:00+02:00\nClearing Stop 3: 2025-09-30 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-09-30 16:30:00+02:00\nClearing Stop 2: 2025-09-30 17:30:00+02:00\nClearing Stop 3: 2025-09-30 18:15:00+02:00\nCut Off 1: 2025-09-30 16:50:00+02:00\nCut Off 2: 2025-09-30 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:cee0b437-59bc-4faf-823f-18aa579d3213@cee0.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251125
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-25 17:00:00+01:00\nClearing Stop 2: 2025-11-25 18:00:00+01:00\nClearing Stop 3: 2025-11-25 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-25 16:30:00+01:00\nClearing Stop 2: 2025-11-25 17:30:00+01:00\nClearing Stop 3: 2025-11-25 18:15:00+01:00\nCut Off 1: 2025-11-25 16:50:00+01:00\nCut Off 2: 2025-11-25 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:30c99ebc-1b77-45e2-a325-9254a54c08b5@30c9.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241227
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2024-12-27 17:00:00+01:00\nClearing Stop 2: 2024-12-27 18:00:00+01:00\nClearing Stop 3: 2024-12-27 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2024-12-27 16:30:00+01:00\nClearing Stop 2: 2024-12-27 17:30:00+01:00\nClearing Stop 3: 2024-12-27 18:15:00+01:00\nCut Off 1: 2024-12-27 16:50:00+01:00\nCut Off 2: 2024-12-27 17:50:00+01:00\n\n
+DTSTART;VALUE=DATE:20250930
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-09-30 17:00:00+02:00\nClearing Stop 2: 2025-09-30 18:00:00+02:00\nClearing Stop 3: 2025-09-30 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-09-30 16:30:00+02:00\nClearing Stop 2: 2025-09-30 17:30:00+02:00\nClearing Stop 3: 2025-09-30 18:15:00+02:00\nCut Off 1: 2025-09-30 16:50:00+02:00\nCut Off 2: 2025-09-30 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:67e90796-bffd-43fd-84fd-b3b9606234e7@67e9.org
+UID:cee0b437-59bc-4faf-823f-18aa579d3213@cee0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250823
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:74c8d13b-7282-4ca2-8cbe-073af3f40021@74c8.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250622
@@ -1079,10 +1079,10 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:77453120-48f6-46ef-9ddd-fb0ac83894e8@7745.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250823
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:74c8d13b-7282-4ca2-8cbe-073af3f40021@74c8.org
+DTSTART;VALUE=DATE:20241227
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2024-12-27 17:00:00+01:00\nClearing Stop 2: 2024-12-27 18:00:00+01:00\nClearing Stop 3: 2024-12-27 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2024-12-27 16:30:00+01:00\nClearing Stop 2: 2024-12-27 17:30:00+01:00\nClearing Stop 3: 2024-12-27 18:15:00+01:00\nCut Off 1: 2024-12-27 16:50:00+01:00\nCut Off 2: 2024-12-27 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:67e90796-bffd-43fd-84fd-b3b9606234e7@67e9.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
@@ -1092,28 +1092,28 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:d7d8be3e-6e72-4aae-9234-1476901da739@d7d8.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250203
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-02-03 17:00:00+01:00\nClearing Stop 2: 2025-02-03 18:00:00+01:00\nClearing Stop 3: 2025-02-03 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-02-03 16:30:00+01:00\nClearing Stop 2: 2025-02-03 17:30:00+01:00\nClearing Stop 3: 2025-02-03 18:15:00+01:00\nCut Off 1: 2025-02-03 16:50:00+01:00\nCut Off 2: 2025-02-03 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:38d659d9-8cd9-4624-a546-9b43dea1547d@38d6.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251206
 DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
 SUMMARY:Scheduled Downtime (Prod)
 UID:d35f8bcc-1127-4598-9eb8-c1417aaf8ec2@d35f.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250131
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-31 17:00:00+01:00\nClearing Stop 2: 2025-01-31 18:00:00+01:00\nClearing Stop 3: 2025-01-31 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-31 16:30:00+01:00\nClearing Stop 2: 2025-01-31 17:30:00+01:00\nClearing Stop 3: 2025-01-31 18:15:00+01:00\nCut Off 1: 2025-01-31 16:50:00+01:00\nCut Off 2: 2025-01-31 17:50:00+01:00\n\n
+DTSTART;VALUE=DATE:20250203
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-02-03 17:00:00+01:00\nClearing Stop 2: 2025-02-03 18:00:00+01:00\nClearing Stop 3: 2025-02-03 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-02-03 16:30:00+01:00\nClearing Stop 2: 2025-02-03 17:30:00+01:00\nClearing Stop 3: 2025-02-03 18:15:00+01:00\nCut Off 1: 2025-02-03 16:50:00+01:00\nCut Off 2: 2025-02-03 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:c916a9b5-1f1a-47fc-bb60-f1a78bce62b4@c916.org
+UID:38d659d9-8cd9-4624-a546-9b43dea1547d@38d6.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250725
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-07-25 17:00:00+02:00\nClearing Stop 2: 2025-07-25 18:00:00+02:00\nClearing Stop 3: 2025-07-25 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-07-25 16:30:00+02:00\nClearing Stop 2: 2025-07-25 17:30:00+02:00\nClearing Stop 3: 2025-07-25 18:15:00+02:00\nCut Off 1: 2025-07-25 16:50:00+02:00\nCut Off 2: 2025-07-25 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:90d690cb-5950-46af-9472-c8decf11dfa1@90d6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250131
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-31 17:00:00+01:00\nClearing Stop 2: 2025-01-31 18:00:00+01:00\nClearing Stop 3: 2025-01-31 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-31 16:30:00+01:00\nClearing Stop 2: 2025-01-31 17:30:00+01:00\nClearing Stop 3: 2025-01-31 18:15:00+01:00\nCut Off 1: 2025-01-31 16:50:00+01:00\nCut Off 2: 2025-01-31 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:c916a9b5-1f1a-47fc-bb60-f1a78bce62b4@c916.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250209
@@ -1159,16 +1159,16 @@ SUMMARY:Normal Operation (Prod)
 UID:5686c4ad-f220-41fa-9dbc-17b933bf9de5@5686.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250620
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-20 17:00:00+02:00\nClearing Stop 2: 2025-06-20 18:00:00+02:00\nClearing Stop 3: 2025-06-20 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-20 16:30:00+02:00\nClearing Stop 2: 2025-06-20 17:30:00+02:00\nClearing Stop 3: 2025-06-20 18:15:00+02:00\nCut Off 1: 2025-06-20 16:50:00+02:00\nCut Off 2: 2025-06-20 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:947d8cd3-8304-49c6-b7c7-3000a3383c66@947d.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250805
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-08-05 17:00:00+02:00\nClearing Stop 2: 2025-08-05 18:00:00+02:00\nClearing Stop 3: 2025-08-05 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-08-05 16:30:00+02:00\nClearing Stop 2: 2025-08-05 17:30:00+02:00\nClearing Stop 3: 2025-08-05 18:15:00+02:00\nCut Off 1: 2025-08-05 16:50:00+02:00\nCut Off 2: 2025-08-05 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:da6922e5-a7d1-4aac-8a4d-e57865853feb@da69.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250620
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-20 17:00:00+02:00\nClearing Stop 2: 2025-06-20 18:00:00+02:00\nClearing Stop 3: 2025-06-20 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-20 16:30:00+02:00\nClearing Stop 2: 2025-06-20 17:30:00+02:00\nClearing Stop 3: 2025-06-20 18:15:00+02:00\nCut Off 1: 2025-06-20 16:50:00+02:00\nCut Off 2: 2025-06-20 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:947d8cd3-8304-49c6-b7c7-3000a3383c66@947d.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -1236,16 +1236,16 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:9179359b-bcf4-4c51-b927-361921b3062d@9179.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250528
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-28 17:00:00+02:00\nClearing Stop 2: 2025-05-28 18:00:00+02:00\nClearing Stop 3: 2025-05-28 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-28 16:30:00+02:00\nClearing Stop 2: 2025-05-28 17:30:00+02:00\nClearing Stop 3: 2025-05-28 18:15:00+02:00\nCut Off 1: 2025-05-28 16:50:00+02:00\nCut Off 2: 2025-05-28 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:13742f5b-c0ed-4303-8139-64ed9b2b57d7@1374.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250717
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-07-17 17:00:00+02:00\nClearing Stop 2: 2025-07-17 18:00:00+02:00\nClearing Stop 3: 2025-07-17 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-07-17 16:30:00+02:00\nClearing Stop 2: 2025-07-17 17:30:00+02:00\nClearing Stop 3: 2025-07-17 18:15:00+02:00\nCut Off 1: 2025-07-17 16:50:00+02:00\nCut Off 2: 2025-07-17 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:1f667b9d-9c18-41d0-83f8-4a0f8b3ec202@1f66.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250528
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-28 17:00:00+02:00\nClearing Stop 2: 2025-05-28 18:00:00+02:00\nClearing Stop 3: 2025-05-28 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-28 16:30:00+02:00\nClearing Stop 2: 2025-05-28 17:30:00+02:00\nClearing Stop 3: 2025-05-28 18:15:00+02:00\nCut Off 1: 2025-05-28 16:50:00+02:00\nCut Off 2: 2025-05-28 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:13742f5b-c0ed-4303-8139-64ed9b2b57d7@1374.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250102
@@ -1305,28 +1305,28 @@ SUMMARY:Normal Operation (Prod)
 UID:2d7839c4-8b7c-4d77-a055-4df661857b9e@2d78.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250925
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-09-25 17:00:00+02:00\nClearing Stop 2: 2025-09-25 18:00:00+02:00\nClearing Stop 3: 2025-09-25 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-09-25 16:30:00+02:00\nClearing Stop 2: 2025-09-25 17:30:00+02:00\nClearing Stop 3: 2025-09-25 18:15:00+02:00\nCut Off 1: 2025-09-25 16:50:00+02:00\nCut Off 2: 2025-09-25 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:e793e560-1e33-4e36-8ea1-731788279ef4@e793.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251124
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-24 17:00:00+01:00\nClearing Stop 2: 2025-11-24 18:00:00+01:00\nClearing Stop 3: 2025-11-24 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-24 16:30:00+01:00\nClearing Stop 2: 2025-11-24 17:30:00+01:00\nClearing Stop 3: 2025-11-24 18:15:00+01:00\nCut Off 1: 2025-11-24 16:50:00+01:00\nCut Off 2: 2025-11-24 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:9f9b7619-a338-4eac-8d19-0373ef04db65@9f9b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250406
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:aa1b39e8-c7dd-4d79-bf1e-7032601d348f@aa1b.org
+DTSTART;VALUE=DATE:20250925
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-09-25 17:00:00+02:00\nClearing Stop 2: 2025-09-25 18:00:00+02:00\nClearing Stop 3: 2025-09-25 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-09-25 16:30:00+02:00\nClearing Stop 2: 2025-09-25 17:30:00+02:00\nClearing Stop 3: 2025-09-25 18:15:00+02:00\nCut Off 1: 2025-09-25 16:50:00+02:00\nCut Off 2: 2025-09-25 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:e793e560-1e33-4e36-8ea1-731788279ef4@e793.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250611
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-11 17:00:00+02:00\nClearing Stop 2: 2025-06-11 18:00:00+02:00\nClearing Stop 3: 2025-06-11 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-11 16:30:00+02:00\nClearing Stop 2: 2025-06-11 17:30:00+02:00\nClearing Stop 3: 2025-06-11 18:15:00+02:00\nCut Off 1: 2025-06-11 16:50:00+02:00\nCut Off 2: 2025-06-11 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:b4642b07-8a75-4aef-b528-f9ab4b06f25a@b464.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250406
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:aa1b39e8-c7dd-4d79-bf1e-7032601d348f@aa1b.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251003
@@ -1635,17 +1635,17 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:0b6bc304-26ed-4dca-b644-37965fa745de@0b6b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250927
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:737af8ad-f217-447f-a61d-a1878d885d84@737a.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20251129T230000Z
 DTSTART:20251129T110000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:e22a39ef-4f61-44e3-901b-221355a0ebd7@e22a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250927
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:737af8ad-f217-447f-a61d-a1878d885d84@737a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250525
@@ -1691,16 +1691,16 @@ SUMMARY:Normal Operation (Prod)
 UID:f8119eeb-c7c9-4678-af54-f260ff4620f9@f811.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250926
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-09-26 17:00:00+02:00\nClearing Stop 2: 2025-09-26 18:00:00+02:00\nClearing Stop 3: 2025-09-26 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-09-26 16:30:00+02:00\nClearing Stop 2: 2025-09-26 17:30:00+02:00\nClearing Stop 3: 2025-09-26 18:15:00+02:00\nCut Off 1: 2025-09-26 16:50:00+02:00\nCut Off 2: 2025-09-26 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:af37c264-3edc-475a-a1e2-6ec259c129f5@af37.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260103
 DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
 SUMMARY:Scheduled Downtime (Prod)
 UID:a3564c90-4ea7-41f6-8b62-b418a95c1146@a356.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250926
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-09-26 17:00:00+02:00\nClearing Stop 2: 2025-09-26 18:00:00+02:00\nClearing Stop 3: 2025-09-26 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-09-26 16:30:00+02:00\nClearing Stop 2: 2025-09-26 17:30:00+02:00\nClearing Stop 3: 2025-09-26 18:15:00+02:00\nCut Off 1: 2025-09-26 16:50:00+02:00\nCut Off 2: 2025-09-26 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:af37c264-3edc-475a-a1e2-6ec259c129f5@af37.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -1710,17 +1710,17 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:a1b34395-148d-4118-99df-1957e02640d8@a1b3.org
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250508
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-08 17:00:00+02:00\nClearing Stop 2: 2025-05-08 18:00:00+02:00\nClearing Stop 3: 2025-05-08 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-08 16:30:00+02:00\nClearing Stop 2: 2025-05-08 17:30:00+02:00\nClearing Stop 3: 2025-05-08 18:15:00+02:00\nCut Off 1: 2025-05-08 16:50:00+02:00\nCut Off 2: 2025-05-08 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:316a328d-f008-4fbf-a351-87306e81b7d9@316a.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
 DTEND:20250209T170000Z
 DTSTART:20250208T230000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:1824ec4a-9feb-4777-987a-295992db9076@1824.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250508
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-08 17:00:00+02:00\nClearing Stop 2: 2025-05-08 18:00:00+02:00\nClearing Stop 3: 2025-05-08 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-08 16:30:00+02:00\nClearing Stop 2: 2025-05-08 17:30:00+02:00\nClearing Stop 3: 2025-05-08 18:15:00+02:00\nCut Off 1: 2025-05-08 16:50:00+02:00\nCut Off 2: 2025-05-08 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:316a328d-f008-4fbf-a351-87306e81b7d9@316a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251122
@@ -1773,28 +1773,10 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:9f8fde30-510a-4ca6-a5d3-4c9fe866c05b@9f8f.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20241230
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2024-12-30 17:00:00+01:00\nClearing Stop 2: 2024-12-30 18:00:00+01:00\nClearing Stop 3: 2024-12-30 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2024-12-30 16:30:00+01:00\nClearing Stop 2: 2024-12-30 17:30:00+01:00\nClearing Stop 3: 2024-12-30 18:15:00+01:00\nCut Off 1: 2024-12-30 16:50:00+01:00\nCut Off 2: 2024-12-30 17:50:00+01:00\n\n
+DTSTART;VALUE=DATE:20251030
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-10-30 17:00:00+01:00\nClearing Stop 2: 2025-10-30 18:00:00+01:00\nClearing Stop 3: 2025-10-30 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-10-30 16:30:00+01:00\nClearing Stop 2: 2025-10-30 17:30:00+01:00\nClearing Stop 3: 2025-10-30 18:15:00+01:00\nCut Off 1: 2025-10-30 16:50:00+01:00\nCut Off 2: 2025-10-30 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:e8b179d2-3a0a-4eb9-9468-88049d165b58@e8b1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250309
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:5a882e66-8798-488b-83aa-739131984d5c@5a88.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250609
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-09 16:30:00+02:00\nClearing Stop 2: 2025-06-09 17:30:00+02:00\nClearing Stop 3: 2025-06-09 18:15:00+02:00\nCut Off 1: 2025-06-09 16:50:00+02:00\nCut Off 2: 2025-06-09 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:bb9f29e9-352e-4c79-9eee-e2c70bfa4c3f@bb9f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251010
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-10-10 17:00:00+02:00\nClearing Stop 2: 2025-10-10 18:00:00+02:00\nClearing Stop 3: 2025-10-10 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-10-10 16:30:00+02:00\nClearing Stop 2: 2025-10-10 17:30:00+02:00\nClearing Stop 3: 2025-10-10 18:15:00+02:00\nCut Off 1: 2025-10-10 16:50:00+02:00\nCut Off 2: 2025-10-10 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:ee8044be-55a7-4ceb-afb4-d59bb0e9f623@ee80.org
+UID:bd6c3cb7-b54b-4a32-a47c-13e523b4d521@bd6c.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251024
@@ -1803,10 +1785,28 @@ SUMMARY:Normal Operation (Prod)
 UID:fb8ce412-2ca9-403b-b03a-ab83a4d6bf57@fb8c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251030
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-10-30 17:00:00+01:00\nClearing Stop 2: 2025-10-30 18:00:00+01:00\nClearing Stop 3: 2025-10-30 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-10-30 16:30:00+01:00\nClearing Stop 2: 2025-10-30 17:30:00+01:00\nClearing Stop 3: 2025-10-30 18:15:00+01:00\nCut Off 1: 2025-10-30 16:50:00+01:00\nCut Off 2: 2025-10-30 17:50:00+01:00\n\n
+DTSTART;VALUE=DATE:20251010
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-10-10 17:00:00+02:00\nClearing Stop 2: 2025-10-10 18:00:00+02:00\nClearing Stop 3: 2025-10-10 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-10-10 16:30:00+02:00\nClearing Stop 2: 2025-10-10 17:30:00+02:00\nClearing Stop 3: 2025-10-10 18:15:00+02:00\nCut Off 1: 2025-10-10 16:50:00+02:00\nCut Off 2: 2025-10-10 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:bd6c3cb7-b54b-4a32-a47c-13e523b4d521@bd6c.org
+UID:ee8044be-55a7-4ceb-afb4-d59bb0e9f623@ee80.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250609
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-09 16:30:00+02:00\nClearing Stop 2: 2025-06-09 17:30:00+02:00\nClearing Stop 3: 2025-06-09 18:15:00+02:00\nCut Off 1: 2025-06-09 16:50:00+02:00\nCut Off 2: 2025-06-09 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:bb9f29e9-352e-4c79-9eee-e2c70bfa4c3f@bb9f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250309
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:5a882e66-8798-488b-83aa-739131984d5c@5a88.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241230
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2024-12-30 17:00:00+01:00\nClearing Stop 2: 2024-12-30 18:00:00+01:00\nClearing Stop 3: 2024-12-30 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2024-12-30 16:30:00+01:00\nClearing Stop 2: 2024-12-30 17:30:00+01:00\nClearing Stop 3: 2024-12-30 18:15:00+01:00\nCut Off 1: 2024-12-30 16:50:00+01:00\nCut Off 2: 2024-12-30 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:e8b179d2-3a0a-4eb9-9468-88049d165b58@e8b1.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250111
@@ -1871,16 +1871,16 @@ SUMMARY:Normal Operation (Prod)
 UID:210abae1-ca1a-4058-8bbf-ea130fa34402@210a.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250107
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-07 17:00:00+01:00\nClearing Stop 2: 2025-01-07 18:00:00+01:00\nClearing Stop 3: 2025-01-07 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-07 16:30:00+01:00\nClearing Stop 2: 2025-01-07 17:30:00+01:00\nClearing Stop 3: 2025-01-07 18:15:00+01:00\nCut Off 1: 2025-01-07 16:50:00+01:00\nCut Off 2: 2025-01-07 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:39debdc0-2821-4931-b6d4-e75b902f3a68@39de.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250127
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-27 17:00:00+01:00\nClearing Stop 2: 2025-01-27 18:00:00+01:00\nClearing Stop 3: 2025-01-27 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-27 16:30:00+01:00\nClearing Stop 2: 2025-01-27 17:30:00+01:00\nClearing Stop 3: 2025-01-27 18:15:00+01:00\nCut Off 1: 2025-01-27 16:50:00+01:00\nCut Off 2: 2025-01-27 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:b2e54692-707d-41e5-a76b-f02989150509@b2e5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250107
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-07 17:00:00+01:00\nClearing Stop 2: 2025-01-07 18:00:00+01:00\nClearing Stop 3: 2025-01-07 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-07 16:30:00+01:00\nClearing Stop 2: 2025-01-07 17:30:00+01:00\nClearing Stop 3: 2025-01-07 18:15:00+01:00\nCut Off 1: 2025-01-07 16:50:00+01:00\nCut Off 2: 2025-01-07 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:39debdc0-2821-4931-b6d4-e75b902f3a68@39de.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251120
@@ -1920,16 +1920,16 @@ SUMMARY:Normal Operation (Prod)
 UID:971a2896-b977-4f93-b32c-0476387d2fed@971a.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250317
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-17 17:00:00+01:00\nClearing Stop 2: 2025-03-17 18:00:00+01:00\nClearing Stop 3: 2025-03-17 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-17 16:30:00+01:00\nClearing Stop 2: 2025-03-17 17:30:00+01:00\nClearing Stop 3: 2025-03-17 18:15:00+01:00\nCut Off 1: 2025-03-17 16:50:00+01:00\nCut Off 2: 2025-03-17 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:bdb844c5-72a9-449c-a1b0-a64ae3709e83@bdb8.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251113
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-13 17:00:00+01:00\nClearing Stop 2: 2025-11-13 18:00:00+01:00\nClearing Stop 3: 2025-11-13 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-13 16:30:00+01:00\nClearing Stop 2: 2025-11-13 17:30:00+01:00\nClearing Stop 3: 2025-11-13 18:15:00+01:00\nCut Off 1: 2025-11-13 16:50:00+01:00\nCut Off 2: 2025-11-13 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:7b343446-4028-4d01-b652-2fbe6eb0f886@7b34.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250317
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-17 17:00:00+01:00\nClearing Stop 2: 2025-03-17 18:00:00+01:00\nClearing Stop 3: 2025-03-17 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-17 16:30:00+01:00\nClearing Stop 2: 2025-03-17 17:30:00+01:00\nClearing Stop 3: 2025-03-17 18:15:00+01:00\nCut Off 1: 2025-03-17 16:50:00+01:00\nCut Off 2: 2025-03-17 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:bdb844c5-72a9-449c-a1b0-a64ae3709e83@bdb8.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -1952,17 +1952,17 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:0f1e4bca-3f09-4893-a3b7-1cfab3173c55@0f1e.org
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250519
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-19 17:00:00+02:00\nClearing Stop 2: 2025-05-19 18:00:00+02:00\nClearing Stop 3: 2025-05-19 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-19 16:30:00+02:00\nClearing Stop 2: 2025-05-19 17:30:00+02:00\nClearing Stop 3: 2025-05-19 18:15:00+02:00\nCut Off 1: 2025-05-19 16:50:00+02:00\nCut Off 2: 2025-05-19 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:e3cbcaee-22e0-4452-95fc-55a93c10b25b@e3cb.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20250504T160000Z
 DTSTART:20250503T220000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:9104f638-90f5-4fc0-aff2-d534ee531592@9104.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250519
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-19 17:00:00+02:00\nClearing Stop 2: 2025-05-19 18:00:00+02:00\nClearing Stop 3: 2025-05-19 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-19 16:30:00+02:00\nClearing Stop 2: 2025-05-19 17:30:00+02:00\nClearing Stop 3: 2025-05-19 18:15:00+02:00\nCut Off 1: 2025-05-19 16:50:00+02:00\nCut Off 2: 2025-05-19 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:e3cbcaee-22e0-4452-95fc-55a93c10b25b@e3cb.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250419
@@ -1971,16 +1971,16 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:351f3d71-4809-4b91-9290-826f7b657654@351f.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250401
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-04-01 17:00:00+02:00\nClearing Stop 2: 2025-04-01 18:00:00+02:00\nClearing Stop 3: 2025-04-01 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-04-01 16:30:00+02:00\nClearing Stop 2: 2025-04-01 17:30:00+02:00\nClearing Stop 3: 2025-04-01 18:15:00+02:00\nCut Off 1: 2025-04-01 16:50:00+02:00\nCut Off 2: 2025-04-01 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:8729c53c-7fae-4a40-8096-c0b41c2b90e0@8729.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250526
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-26 17:00:00+02:00\nClearing Stop 2: 2025-05-26 18:00:00+02:00\nClearing Stop 3: 2025-05-26 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-26 16:30:00+02:00\nClearing Stop 2: 2025-05-26 17:30:00+02:00\nClearing Stop 3: 2025-05-26 18:15:00+02:00\nCut Off 1: 2025-05-26 16:50:00+02:00\nCut Off 2: 2025-05-26 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:1b9a6f73-882a-4802-98a2-3f0703afc1b0@1b9a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250401
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-04-01 17:00:00+02:00\nClearing Stop 2: 2025-04-01 18:00:00+02:00\nClearing Stop 3: 2025-04-01 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-04-01 16:30:00+02:00\nClearing Stop 2: 2025-04-01 17:30:00+02:00\nClearing Stop 3: 2025-04-01 18:15:00+02:00\nCut Off 1: 2025-04-01 16:50:00+02:00\nCut Off 2: 2025-04-01 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:8729c53c-7fae-4a40-8096-c0b41c2b90e0@8729.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -2059,16 +2059,16 @@ SUMMARY:Normal Operation (Prod)
 UID:6905a863-1031-463f-8de4-680c857733ef@6905.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250615
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:9ce4ab24-afb7-45d6-baea-66bc4dd6c765@9ce4.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250804
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-08-04 17:00:00+02:00\nClearing Stop 2: 2025-08-04 18:00:00+02:00\nClearing Stop 3: 2025-08-04 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-08-04 16:30:00+02:00\nClearing Stop 2: 2025-08-04 17:30:00+02:00\nClearing Stop 3: 2025-08-04 18:15:00+02:00\nCut Off 1: 2025-08-04 16:50:00+02:00\nCut Off 2: 2025-08-04 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:c9403535-8931-4b72-af6b-7b37cda5f7ca@c940.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250615
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:9ce4ab24-afb7-45d6-baea-66bc4dd6c765@9ce4.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251204
@@ -2109,17 +2109,17 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:194f9ab7-e3bd-4231-bfda-b718d34f4a4e@194f.org
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251118
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-18 17:00:00+01:00\nClearing Stop 2: 2025-11-18 18:00:00+01:00\nClearing Stop 3: 2025-11-18 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-18 16:30:00+01:00\nClearing Stop 2: 2025-11-18 17:30:00+01:00\nClearing Stop 3: 2025-11-18 18:15:00+01:00\nCut Off 1: 2025-11-18 16:50:00+01:00\nCut Off 2: 2025-11-18 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:700afd4a-3470-4576-9e2c-1ac474a950eb@700a.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20250706T160000Z
 DTSTART:20250705T220000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:64a6bca2-9770-4501-bae0-0aac45720fbf@64a6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251118
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-18 17:00:00+01:00\nClearing Stop 2: 2025-11-18 18:00:00+01:00\nClearing Stop 3: 2025-11-18 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-18 16:30:00+01:00\nClearing Stop 2: 2025-11-18 17:30:00+01:00\nClearing Stop 3: 2025-11-18 18:15:00+01:00\nCut Off 1: 2025-11-18 16:50:00+01:00\nCut Off 2: 2025-11-18 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:700afd4a-3470-4576-9e2c-1ac474a950eb@700a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250326
@@ -2146,17 +2146,17 @@ SUMMARY:Normal Operation (Prod)
 UID:d1b2400c-8338-47cc-b2ca-71165e484fcc@d1b2.org
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250618
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-18 17:00:00+02:00\nClearing Stop 2: 2025-06-18 18:00:00+02:00\nClearing Stop 3: 2025-06-18 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-18 16:30:00+02:00\nClearing Stop 2: 2025-06-18 17:30:00+02:00\nClearing Stop 3: 2025-06-18 18:15:00+02:00\nCut Off 1: 2025-06-18 16:50:00+02:00\nCut Off 2: 2025-06-18 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:20692397-177f-4acd-a45a-513e88290dec@2069.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
 DTEND:20250727T090000Z
 DTSTART:20250727T074500Z
 SUMMARY:Downtime (Prod): PCR_P
 UID:dca68a28-88c3-4b01-84c0-fd9043f8c796@dca6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250618
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-18 17:00:00+02:00\nClearing Stop 2: 2025-06-18 18:00:00+02:00\nClearing Stop 3: 2025-06-18 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-18 16:30:00+02:00\nClearing Stop 2: 2025-06-18 17:30:00+02:00\nClearing Stop 3: 2025-06-18 18:15:00+02:00\nCut Off 1: 2025-06-18 16:50:00+02:00\nCut Off 2: 2025-06-18 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:20692397-177f-4acd-a45a-513e88290dec@2069.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250901
@@ -2191,17 +2191,17 @@ UID:3d8eedfe-4a91-486b-8cf8-319b2b54f57b@3d8e.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
-DTEND:20251012T160000Z
-DTSTART:20251011T220000Z
-SUMMARY:Downtime (Prod): PCR_P\, PER_P
-UID:ad1fa20f-36c0-41cd-9fcf-7ab441beeaed@ad1f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20251101T230000Z
 DTSTART:20251101T110000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:caef3bda-a6d1-480c-9598-9c3337dac5dc@caef.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:RTGS EUR production\, production code base
+DTEND:20251012T160000Z
+DTSTART:20251011T220000Z
+SUMMARY:Downtime (Prod): PCR_P\, PER_P
+UID:ad1fa20f-36c0-41cd-9fcf-7ab441beeaed@ad1f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250118
@@ -2210,17 +2210,17 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:5eef99d7-8367-4f0c-95e5-dc1779106b27@5eef.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250104
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:09c3d744-25fa-4baf-9c2c-998b0d8b21c0@09c3.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20251122T230000Z
 DTSTART:20251122T110000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:b5822f3f-07b4-49e7-941c-5d63c304fa72@b582.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250104
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:09c3d744-25fa-4baf-9c2c-998b0d8b21c0@09c3.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250708
@@ -2237,17 +2237,17 @@ UID:a306f8f7-8bc6-4107-946c-d7bcc1174656@a306.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
-DTEND:20250628T220000Z
-DTSTART:20250628T100000Z
-SUMMARY:Downtime (Prod): PCR_P\, PER_P
-UID:e5315314-a603-4cf2-bf8f-7431bb81cbf0@e531.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20251123T170000Z
 DTSTART:20251122T230000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:017a07ba-ca28-4b33-9c8b-5eb115596c44@017a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:RTGS EUR production\, production code base
+DTEND:20250628T220000Z
+DTSTART:20250628T100000Z
+SUMMARY:Downtime (Prod): PCR_P\, PER_P
+UID:e5315314-a603-4cf2-bf8f-7431bb81cbf0@e531.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250425
@@ -2311,17 +2311,17 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:b1be4e95-3d85-4a19-9cbe-eac011f5c122@b1be.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250616
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-16 17:00:00+02:00\nClearing Stop 2: 2025-06-16 18:00:00+02:00\nClearing Stop 3: 2025-06-16 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-16 16:30:00+02:00\nClearing Stop 2: 2025-06-16 17:30:00+02:00\nClearing Stop 3: 2025-06-16 18:15:00+02:00\nCut Off 1: 2025-06-16 16:50:00+02:00\nCut Off 2: 2025-06-16 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:1f42e0ea-90cc-423f-8ebf-2de77dba5712@1f42.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20250906T220000Z
 DTSTART:20250906T100000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:10b2554b-320f-40a8-ba49-e014d167fcba@10b2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250616
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-16 17:00:00+02:00\nClearing Stop 2: 2025-06-16 18:00:00+02:00\nClearing Stop 3: 2025-06-16 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-16 16:30:00+02:00\nClearing Stop 2: 2025-06-16 17:30:00+02:00\nClearing Stop 3: 2025-06-16 18:15:00+02:00\nCut Off 1: 2025-06-16 16:50:00+02:00\nCut Off 2: 2025-06-16 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:1f42e0ea-90cc-423f-8ebf-2de77dba5712@1f42.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250626
@@ -2348,22 +2348,11 @@ SUMMARY:Normal Operation (Prod)
 UID:1c68c27d-6df7-4e4f-b285-9ee536d6719b@1c68.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250706
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:36de673d-b7f5-4d2b-8ed4-8b55e5b2e0dc@36de.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250218
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-02-18 17:00:00+01:00\nClearing Stop 2: 2025-02-18 18:00:00+01:00\nClearing Stop 3: 2025-02-18 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-02-18 16:30:00+01:00\nClearing Stop 2: 2025-02-18 17:30:00+01:00\nClearing Stop 3: 2025-02-18 18:15:00+01:00\nCut Off 1: 2025-02-18 16:50:00+01:00\nCut Off 2: 2025-02-18 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:fb507291-0595-47e3-b697-4e4b898d2b18@fb50.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251213
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:32a30fac-7125-473d-9a52-6dec5645485d@32a3.org
+DESCRIPTION:RTGS EUR production\, production code base
+DTEND:20260103T230000Z
+DTSTART:20260103T110000Z
+SUMMARY:Downtime (Prod): PCR_P\, PER_P
+UID:79f6bbd4-83b1-411a-a520-cdbf54fda4f9@79f6.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250727
@@ -2372,11 +2361,22 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:08eac822-41a7-4931-a7db-e139f8a0b29c@08ea.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:RTGS EUR production\, production code base
-DTEND:20260103T230000Z
-DTSTART:20260103T110000Z
-SUMMARY:Downtime (Prod): PCR_P\, PER_P
-UID:79f6bbd4-83b1-411a-a520-cdbf54fda4f9@79f6.org
+DTSTART;VALUE=DATE:20251213
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:32a30fac-7125-473d-9a52-6dec5645485d@32a3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250218
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-02-18 17:00:00+01:00\nClearing Stop 2: 2025-02-18 18:00:00+01:00\nClearing Stop 3: 2025-02-18 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-02-18 16:30:00+01:00\nClearing Stop 2: 2025-02-18 17:30:00+01:00\nClearing Stop 3: 2025-02-18 18:15:00+01:00\nCut Off 1: 2025-02-18 16:50:00+01:00\nCut Off 2: 2025-02-18 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:fb507291-0595-47e3-b697-4e4b898d2b18@fb50.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250706
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:36de673d-b7f5-4d2b-8ed4-8b55e5b2e0dc@36de.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250330
@@ -2515,17 +2515,17 @@ SUMMARY:Normal Operation (Prod)
 UID:2c2a7926-c7ea-4f97-908e-4b20085a30a1@2c2a.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250103
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-03 17:00:00+01:00\nClearing Stop 2: 2025-01-03 18:00:00+01:00\nClearing Stop 3: 2025-01-03 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-03 16:30:00+01:00\nClearing Stop 2: 2025-01-03 17:30:00+01:00\nClearing Stop 3: 2025-01-03 18:15:00+01:00\nCut Off 1: 2025-01-03 16:50:00+01:00\nCut Off 2: 2025-01-03 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:3277bc40-fb57-406a-b45d-833bc55a500d@3277.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
 DTEND:20250206T183000Z
 DTSTART:20250206T174500Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:5b6e1390-eb91-4c6b-b245-2cd0470a4931@5b6e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250103
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-01-03 17:00:00+01:00\nClearing Stop 2: 2025-01-03 18:00:00+01:00\nClearing Stop 3: 2025-01-03 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-01-03 16:30:00+01:00\nClearing Stop 2: 2025-01-03 17:30:00+01:00\nClearing Stop 3: 2025-01-03 18:15:00+01:00\nCut Off 1: 2025-01-03 16:50:00+01:00\nCut Off 2: 2025-01-03 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:3277bc40-fb57-406a-b45d-833bc55a500d@3277.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -2535,10 +2535,10 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:c6468827-6116-4327-a3cd-e16fc6c936a2@c646.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250228
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-02-28 17:00:00+01:00\nClearing Stop 2: 2025-02-28 18:00:00+01:00\nClearing Stop 3: 2025-02-28 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-02-28 16:30:00+01:00\nClearing Stop 2: 2025-02-28 17:30:00+01:00\nClearing Stop 3: 2025-02-28 18:15:00+01:00\nCut Off 1: 2025-02-28 16:50:00+01:00\nCut Off 2: 2025-02-28 17:50:00+01:00\n\n
+DTSTART;VALUE=DATE:20250331
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-31 17:00:00+02:00\nClearing Stop 2: 2025-03-31 18:00:00+02:00\nClearing Stop 3: 2025-03-31 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-31 16:30:00+02:00\nClearing Stop 2: 2025-03-31 17:30:00+02:00\nClearing Stop 3: 2025-03-31 18:15:00+02:00\nCut Off 1: 2025-03-31 16:50:00+02:00\nCut Off 2: 2025-03-31 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:f72604e2-ef5e-47a3-9e17-5521f6b607e4@f726.org
+UID:6fe3c53c-d430-4dde-8b92-48ebfd11dca5@6fe3.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250124
@@ -2547,10 +2547,10 @@ SUMMARY:Normal Operation (Prod)
 UID:a6f14b5b-29f4-4851-8067-d0daf845c55b@a6f1.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250331
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-31 17:00:00+02:00\nClearing Stop 2: 2025-03-31 18:00:00+02:00\nClearing Stop 3: 2025-03-31 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-31 16:30:00+02:00\nClearing Stop 2: 2025-03-31 17:30:00+02:00\nClearing Stop 3: 2025-03-31 18:15:00+02:00\nCut Off 1: 2025-03-31 16:50:00+02:00\nCut Off 2: 2025-03-31 17:50:00+02:00\n\n
+DTSTART;VALUE=DATE:20250228
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-02-28 17:00:00+01:00\nClearing Stop 2: 2025-02-28 18:00:00+01:00\nClearing Stop 3: 2025-02-28 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-02-28 16:30:00+01:00\nClearing Stop 2: 2025-02-28 17:30:00+01:00\nClearing Stop 3: 2025-02-28 18:15:00+01:00\nCut Off 1: 2025-02-28 16:50:00+01:00\nCut Off 2: 2025-02-28 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:6fe3c53c-d430-4dde-8b92-48ebfd11dca5@6fe3.org
+UID:f72604e2-ef5e-47a3-9e17-5521f6b607e4@f726.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250715
@@ -2652,10 +2652,11 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:cc6301f0-7619-4409-bb64-7063fff54547@cc63.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250623
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-23 17:00:00+02:00\nClearing Stop 2: 2025-06-23 18:00:00+02:00\nClearing Stop 3: 2025-06-23 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-23 16:30:00+02:00\nClearing Stop 2: 2025-06-23 17:30:00+02:00\nClearing Stop 3: 2025-06-23 18:15:00+02:00\nCut Off 1: 2025-06-23 16:50:00+02:00\nCut Off 2: 2025-06-23 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:9180051b-cee5-46dd-9371-686e3cf4d762@9180.org
+DESCRIPTION:RTGS EUR production\, production code base
+DTEND:20250817T160000Z
+DTSTART:20250816T220000Z
+SUMMARY:Downtime (Prod): PCR_P\, PER_P
+UID:1d3bcf7d-3a11-4483-afb8-93fd8447659d@1d3b.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251008
@@ -2664,23 +2665,22 @@ SUMMARY:Normal Operation (Prod)
 UID:a5d63e93-7388-49f3-884c-7b8566d11e3b@a5d6.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:RTGS EUR production\, production code base
-DTEND:20250817T160000Z
-DTSTART:20250816T220000Z
-SUMMARY:Downtime (Prod): PCR_P\, PER_P
-UID:1d3bcf7d-3a11-4483-afb8-93fd8447659d@1d3b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250208
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Scheduled Downtime (Prod)
-UID:3cee8fab-9609-4d79-a8d2-df91915a4a1b@3cee.org
+DTSTART;VALUE=DATE:20250623
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-06-23 17:00:00+02:00\nClearing Stop 2: 2025-06-23 18:00:00+02:00\nClearing Stop 3: 2025-06-23 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-06-23 16:30:00+02:00\nClearing Stop 2: 2025-06-23 17:30:00+02:00\nClearing Stop 3: 2025-06-23 18:15:00+02:00\nCut Off 1: 2025-06-23 16:50:00+02:00\nCut Off 2: 2025-06-23 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:9180051b-cee5-46dd-9371-686e3cf4d762@9180.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251102
 DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
 SUMMARY:Scheduled Downtime (Prod)
 UID:496235b6-7fee-4446-a3f3-49726b2fdb6a@4962.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250208
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Scheduled Downtime (Prod)
+UID:3cee8fab-9609-4d79-a8d2-df91915a4a1b@3cee.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250610
@@ -2725,16 +2725,16 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:69ad58db-f5c1-4c08-8dde-cb6725101f23@69ad.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250501
-DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
-SUMMARY:Normal Operation (Prod)
-UID:7352874e-86b8-45d2-aef3-cf9616518134@7352.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251111
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-11 17:00:00+01:00\nClearing Stop 2: 2025-11-11 18:00:00+01:00\nClearing Stop 3: 2025-11-11 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-11 16:30:00+01:00\nClearing Stop 2: 2025-11-11 17:30:00+01:00\nClearing Stop 3: 2025-11-11 18:15:00+01:00\nCut Off 1: 2025-11-11 16:50:00+01:00\nCut Off 2: 2025-11-11 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:4d0322da-0780-464b-9c34-662495328332@4d03.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250501
+DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
+SUMMARY:Normal Operation (Prod)
+UID:7352874e-86b8-45d2-aef3-cf9616518134@7352.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -2805,17 +2805,17 @@ SUMMARY:Normal Operation (Prod)
 UID:ea7d46e9-0e0f-4667-9b0e-debebc77f5e0@ea7d.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250813
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-08-13 17:00:00+02:00\nClearing Stop 2: 2025-08-13 18:00:00+02:00\nClearing Stop 3: 2025-08-13 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-08-13 16:30:00+02:00\nClearing Stop 2: 2025-08-13 17:30:00+02:00\nClearing Stop 3: 2025-08-13 18:15:00+02:00\nCut Off 1: 2025-08-13 16:50:00+02:00\nCut Off 2: 2025-08-13 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:c883dddb-3a4b-4190-b1c3-65a6ece8d29e@c883.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20251116T170000Z
 DTSTART:20251115T230000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:246cc2cf-5031-4cd5-b5a4-91bc17760cf1@246c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250813
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-08-13 17:00:00+02:00\nClearing Stop 2: 2025-08-13 18:00:00+02:00\nClearing Stop 3: 2025-08-13 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-08-13 16:30:00+02:00\nClearing Stop 2: 2025-08-13 17:30:00+02:00\nClearing Stop 3: 2025-08-13 18:15:00+02:00\nCut Off 1: 2025-08-13 16:50:00+02:00\nCut Off 2: 2025-08-13 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:c883dddb-3a4b-4190-b1c3-65a6ece8d29e@c883.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251129
@@ -2860,12 +2860,6 @@ SUMMARY:Normal Operation (Prod)
 UID:81939ba2-45e3-4f64-8fdf-66468b873251@8193.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250514
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-14 17:00:00+02:00\nClearing Stop 2: 2025-05-14 18:00:00+02:00\nClearing Stop 3: 2025-05-14 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-14 16:30:00+02:00\nClearing Stop 2: 2025-05-14 17:30:00+02:00\nClearing Stop 3: 2025-05-14 18:15:00+02:00\nCut Off 1: 2025-05-14 16:50:00+02:00\nCut Off 2: 2025-05-14 17:50:00+02:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:a4e2f9bb-61de-4c65-ac49-50436fc27459@a4e2.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
 DTEND:20250920T220000Z
 DTSTART:20250920T100000Z
@@ -2873,10 +2867,10 @@ SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:e23cd3c3-5416-4b19-a39a-d968ce5eee38@e23c.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250428
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-04-28 17:00:00+02:00\nClearing Stop 2: 2025-04-28 18:00:00+02:00\nClearing Stop 3: 2025-04-28 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-04-28 16:30:00+02:00\nClearing Stop 2: 2025-04-28 17:30:00+02:00\nClearing Stop 3: 2025-04-28 18:15:00+02:00\nCut Off 1: 2025-04-28 16:50:00+02:00\nCut Off 2: 2025-04-28 17:50:00+02:00\n\n
+DTSTART;VALUE=DATE:20250514
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-05-14 17:00:00+02:00\nClearing Stop 2: 2025-05-14 18:00:00+02:00\nClearing Stop 3: 2025-05-14 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-05-14 16:30:00+02:00\nClearing Stop 2: 2025-05-14 17:30:00+02:00\nClearing Stop 3: 2025-05-14 18:15:00+02:00\nCut Off 1: 2025-05-14 16:50:00+02:00\nCut Off 2: 2025-05-14 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:177fecd3-9481-40e3-a9ef-ebe12800c658@177f.org
+UID:a4e2f9bb-61de-4c65-ac49-50436fc27459@a4e2.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
@@ -2884,6 +2878,12 @@ DTEND:20250726T220000Z
 DTSTART:20250726T100000Z
 SUMMARY:Downtime (Prod): PCR_P\, PER_P
 UID:bac59ea9-e0ca-43f0-a4eb-6df322024242@bac5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250428
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-04-28 17:00:00+02:00\nClearing Stop 2: 2025-04-28 18:00:00+02:00\nClearing Stop 3: 2025-04-28 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-04-28 16:30:00+02:00\nClearing Stop 2: 2025-04-28 17:30:00+02:00\nClearing Stop 3: 2025-04-28 18:15:00+02:00\nCut Off 1: 2025-04-28 16:50:00+02:00\nCut Off 2: 2025-04-28 17:50:00+02:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:177fecd3-9481-40e3-a9ef-ebe12800c658@177f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250904
@@ -2929,10 +2929,10 @@ SUMMARY:Scheduled Downtime (Prod)
 UID:3bcaff2e-5bf8-4fde-bbf5-7862477fa30f@3bca.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250311
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-11 17:00:00+01:00\nClearing Stop 2: 2025-03-11 18:00:00+01:00\nClearing Stop 3: 2025-03-11 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-11 16:30:00+01:00\nClearing Stop 2: 2025-03-11 17:30:00+01:00\nClearing Stop 3: 2025-03-11 18:15:00+01:00\nCut Off 1: 2025-03-11 16:50:00+01:00\nCut Off 2: 2025-03-11 17:50:00+01:00\n\n
+DTSTART;VALUE=DATE:20250722
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-07-22 17:00:00+02:00\nClearing Stop 2: 2025-07-22 18:00:00+02:00\nClearing Stop 3: 2025-07-22 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-07-22 16:30:00+02:00\nClearing Stop 2: 2025-07-22 17:30:00+02:00\nClearing Stop 3: 2025-07-22 18:15:00+02:00\nCut Off 1: 2025-07-22 16:50:00+02:00\nCut Off 2: 2025-07-22 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:1877c283-2169-4239-8381-d60f4efa3012@1877.org
+UID:adfc05ef-a13c-4d25-93d8-e8597906d3a2@adfc.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:SIC CHF production\, production code base\nRTGS EUR production\, production code base
@@ -2948,22 +2948,22 @@ SUMMARY:Normal Operation (Prod)
 UID:7f6b6916-5ff7-44a1-9f8d-8152ec9bb5bd@7f6b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250307
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-07 17:00:00+01:00\nClearing Stop 2: 2025-03-07 18:00:00+01:00\nClearing Stop 3: 2025-03-07 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-07 16:30:00+01:00\nClearing Stop 2: 2025-03-07 17:30:00+01:00\nClearing Stop 3: 2025-03-07 18:15:00+01:00\nCut Off 1: 2025-03-07 16:50:00+01:00\nCut Off 2: 2025-03-07 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:e8934d20-1b5d-48c7-8ac9-2c59098da552@e893.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250414
 DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-04-14 17:00:00+02:00\nClearing Stop 2: 2025-04-14 18:00:00+02:00\nClearing Stop 3: 2025-04-14 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-04-14 16:30:00+02:00\nClearing Stop 2: 2025-04-14 17:30:00+02:00\nClearing Stop 3: 2025-04-14 18:15:00+02:00\nCut Off 1: 2025-04-14 16:50:00+02:00\nCut Off 2: 2025-04-14 17:50:00+02:00\n\n
 SUMMARY:Normal Operation (Prod)
 UID:d9b83403-9974-4dc1-badc-4572b896a458@d9b8.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250722
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-07-22 17:00:00+02:00\nClearing Stop 2: 2025-07-22 18:00:00+02:00\nClearing Stop 3: 2025-07-22 18:15:00+02:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-07-22 16:30:00+02:00\nClearing Stop 2: 2025-07-22 17:30:00+02:00\nClearing Stop 3: 2025-07-22 18:15:00+02:00\nCut Off 1: 2025-07-22 16:50:00+02:00\nCut Off 2: 2025-07-22 17:50:00+02:00\n\n
+DTSTART;VALUE=DATE:20250307
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-07 17:00:00+01:00\nClearing Stop 2: 2025-03-07 18:00:00+01:00\nClearing Stop 3: 2025-03-07 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-07 16:30:00+01:00\nClearing Stop 2: 2025-03-07 17:30:00+01:00\nClearing Stop 3: 2025-03-07 18:15:00+01:00\nCut Off 1: 2025-03-07 16:50:00+01:00\nCut Off 2: 2025-03-07 17:50:00+01:00\n\n
 SUMMARY:Normal Operation (Prod)
-UID:adfc05ef-a13c-4d25-93d8-e8597906d3a2@adfc.org
+UID:e8934d20-1b5d-48c7-8ac9-2c59098da552@e893.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250311
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-03-11 17:00:00+01:00\nClearing Stop 2: 2025-03-11 18:00:00+01:00\nClearing Stop 3: 2025-03-11 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-03-11 16:30:00+01:00\nClearing Stop 2: 2025-03-11 17:30:00+01:00\nClearing Stop 3: 2025-03-11 18:15:00+01:00\nCut Off 1: 2025-03-11 16:50:00+01:00\nCut Off 2: 2025-03-11 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:1877c283-2169-4239-8381-d60f4efa3012@1877.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250605
@@ -3017,16 +3017,16 @@ SUMMARY:Normal Operation (Prod)
 UID:4a4600dc-30bb-47b5-bc6a-7ee253caafd9@4a46.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251110
-DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-10 17:00:00+01:00\nClearing Stop 2: 2025-11-10 18:00:00+01:00\nClearing Stop 3: 2025-11-10 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-10 16:30:00+01:00\nClearing Stop 2: 2025-11-10 17:30:00+01:00\nClearing Stop 3: 2025-11-10 18:15:00+01:00\nCut Off 1: 2025-11-10 16:50:00+01:00\nCut Off 2: 2025-11-10 17:50:00+01:00\n\n
-SUMMARY:Normal Operation (Prod)
-UID:8e9bf05c-8327-4a3a-b8fe-991cb884b57c@8e9b.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251123
 DESCRIPTION:Service: IP CHF production\, production code base\nService: SIC CHF production\, production code base\nService: RTGS EUR production\, production code base\n
 SUMMARY:Scheduled Downtime (Prod)
 UID:ee77897b-06cf-4f5d-9247-7cea48578c8f@ee77.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251110
+DESCRIPTION:Service: IP CHF production\, production code base\n\nService: SIC CHF production\, production code base\nClearing Stop 1: 2025-11-10 17:00:00+01:00\nClearing Stop 2: 2025-11-10 18:00:00+01:00\nClearing Stop 3: 2025-11-10 18:15:00+01:00\n\nService: RTGS EUR production\, production code base\nClearing Stop 1: 2025-11-10 16:30:00+01:00\nClearing Stop 2: 2025-11-10 17:30:00+01:00\nClearing Stop 3: 2025-11-10 18:15:00+01:00\nCut Off 1: 2025-11-10 16:50:00+01:00\nCut Off 2: 2025-11-10 17:50:00+01:00\n\n
+SUMMARY:Normal Operation (Prod)
+UID:8e9bf05c-8327-4a3a-b8fe-991cb884b57c@8e9b.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:RTGS EUR production\, production code base
